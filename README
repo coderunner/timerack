@@ -1,0 +1,3 @@
+timerack: simple web application build using the Rack interface that provides the current time.
+
+nothing fancy, but used as a proof of concept for the misosoup project.
