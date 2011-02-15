@@ -1,3 +1,9 @@
 timerack: simple web application build using the Rack interface that provides the current time.
 
 nothing fancy, but used as a proof of concept for the misosoup project.
+
+TODO list
+
+- create a app class
+- have layout for response to return HTML
+- have simple css
