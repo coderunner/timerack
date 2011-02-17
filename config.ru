@@ -1,3 +1,8 @@
-run lambda do |env|
-  [200, {"Content-Type" => "text/plain"}, ["Running | #{Time.now}"]]
+require 'timerack'
+
+app = lambda do |env|
+  result = Timerack.generateTime
+  [200, {"Content-Type" => "text/html"}, [result]]
 end
+
+run app
