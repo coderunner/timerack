@@ -1,8 +1,7 @@
 require 'timerack'
 
 app = lambda do |env|
-  result = Timerack.generateHtml
-  [200, {"Content-Type" => "text/html"}, [result]]
+  [200, {"Content-Type" => "text/html"}, [ Timerack.generateHtml]]
 end
 
 run app
