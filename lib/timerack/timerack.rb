@@ -1,7 +1,7 @@
 module Timerack
   require 'erb'
   
-  class TimerackApp
+  class Timerack
     HTML = '<!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml\" xml:lang="en" lang="en-us">
     <head>

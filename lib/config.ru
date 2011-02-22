@@ -1,3 +1,3 @@
 require 'timerack'
 
-run Timerack::TimerackApp.new
+run Timerack::Timerack.new
