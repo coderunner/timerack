@@ -1,1 +1,1 @@
-require 'timerack/timerack'
+require 'lib/timerack/timerack'

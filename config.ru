@@ -1,3 +1,3 @@
-require 'timerack'
+require 'lib/timerack'
 
 run Timerack::Timerack.new
