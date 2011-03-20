@@ -1,1 +1,1 @@
-require 'lib/timerack/timerack'
+require ::File.expand_path(File.dirname(__FILE__))+'/timerack/timerack'
